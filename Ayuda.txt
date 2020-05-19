@@ -1,0 +1,47 @@
+    ***************************************************************
+    **                                                           **
+    **                02_react_redux_test                        **
+    **                                                           **
+    ***************************************************************
+- 02_react_redux_test
+	- TITULO: React Redux fundamentos
+	- REFERENCIAS
+		- https://www.youtube.com/watch?v=OXWn4XiDUmw&list=PL33bS175Qm6dRwGuzW6AX7Ru7OpubipSw
+		
+	- PASOS
+		- Setup
+			- Crear proyecto con "npx create-react-app 02_react_redux_test"
+			- Instalar los siguientes paquetes
+				- npm install react-router-dom redux react-redux
+				- npm install @material-ui/core @material-ui/icons
+					- Componentes de React para un desarrollo web más rápido y sencillo. 
+					  Construya su propio sistema de diseño, o empiece con Material Design.
+				- Para usar material-ui/core debemos referenciar las
+                  siguientes fuentes en el index.html.
+					- Referencia:
+						- https://material-ui.com/es/getting-started/installation/
+					- <link rel="stylesheet" href="https://fonts.googleapolis.com/css?family=Roboto:300,400,500">
+					- <link rel="stylesheet" href="https://fonts.googleapolis.com/icon?family=Material+Icons">
+			- Crear la siguiente estructura
+				- src/index.js
+				- src/redux
+				- src/components
+				
+				
+		- Integrar React Redux en el proyecto
+			- Entendiendo Redux Referencia
+				- https://www.youtube.com/playlist?list=PL33bS175Qm6eKgcOtuMp87FvTHNnZHx6P
+			- Crear la siguiente estructura
+				- "src/redux/store.js"
+				- "src/redux/reducers"
+				- "src/redux/actions"
+
+	- Formatear Entorno Visual Studio
+		- Referencia:
+			- https://www.youtube.com/watch?v=jZ_duf0ZhH8
+		
+		- React Native Snippet
+			- Sirve para hacer auto complete
+		- ES7 React/Redux/GraphQL/React-Native snippets
+		- Bracket Pair Colorizer
+		- Prettier - Code Formatter
