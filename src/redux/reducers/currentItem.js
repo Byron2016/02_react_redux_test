@@ -6,3 +6,5 @@ function reducer(state = defaultStatus, { type, payload }) {
       return state;
   }
 }
+
+export default reducer;
